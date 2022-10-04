@@ -11,17 +11,28 @@
 
     <!-- JS -->
     <script defer src="/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <title>Pokédex</title>
 </head>
 <body>
     <main>
         <img src="#" alt="pokémon" class="pokemon_image">
+        <span class="img_info" style="display:none">Detalhes</span>
+        
         
         <h1 class="pokemon_data">
             <span class="pokemon_number"></span> -
             <span class="pokemon_name"></span>
         </h1>
+
+        <div class="pokemon_details" style="display:none">
+            Tipo:<span class="pokemon_type"></span><br>
+            Vida:<span class="pokemon_hp"></span><br>
+            Ataque:<span class="pokemon_atk"></span><br>
+            Defesa:<span class="pokemon_def"></span><br>
+            Velocidade:<span class="pokemon_speed"></span>
+        </div>
 
         <form class="form">
             <input type="search" class="input_search" placeholder="Nome ou número" required>

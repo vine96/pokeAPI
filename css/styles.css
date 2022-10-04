@@ -31,6 +31,7 @@ main{
     left: 40%;
     transform: translate(-15%, 20%);
     height: 18%;
+    cursor: pointer;
 }
 
 .pokemon_data{
@@ -90,4 +91,34 @@ main{
 .button:active{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.75rem;
+}
+
+.pokemon_details{
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 57%;
+    height: 26%;
+    top: 28%;
+    left: 18%;
+    gap: 20px;
+    transform: translate(0, -2%);
+    font-size: clamp(18px, 5.5vw, 22px);
+    padding: 3%;
+    cursor: pointer;
+}
+
+.pokemon_type, .pokemon_hp, .pokemon_atk, .pokemon_def, .pokemon_speed{
+    margin-left: 15px;
+}
+
+.img_info{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: white;
+    opacity: 75%;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 2%;
 }
