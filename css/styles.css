@@ -135,9 +135,26 @@ main{
     padding: 5%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .firstPizza{
+    width: 50% !important; 
+}
+
+.firstBar{
+    color: white;
+    font-size: clamp(15px, 5.5vw, 25px);
+    padding: 2%;
+}
+
+.secondBar{
+    color: white;
+    font-size: clamp(15px, 5.5vw, 25px);
+    padding: 2%;
+}
+
+.secondGraph{
     width: 50% !important; 
 }
 
