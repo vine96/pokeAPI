@@ -12,6 +12,7 @@
     <!-- JS -->
     <script defer src="/js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
 
     <title>Pokédex</title>
 </head>
@@ -19,8 +20,7 @@
     <main>
         <img src="#" alt="pokémon" class="pokemon_image">
         <span class="img_info" style="display:none">Detalhes</span>
-        
-        
+
         <h1 class="pokemon_data">
             <span class="pokemon_number"></span> -
             <span class="pokemon_name"></span>
@@ -49,5 +49,10 @@
         
         <img src="/images/pokedex.png" alt="Pokédex" class="pokedex">
     </main>
+    <div class="content-graphics">
+        <div class="firstPizza">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
 </body>
 </html>
