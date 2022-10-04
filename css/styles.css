@@ -38,7 +38,7 @@ main{
     font-weight: 600;
     color: grey;
     bottom: 40%;
-    left: 30%;
+    left: 25%;
     transform: translate(12%, 0);
     font-size: clamp(18px, 5vw, 24px);
 }
